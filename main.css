@@ -1,0 +1,690 @@
+.box {
+  padding: 20px; /* Applies 20px padding on all sides (top, right, bottom, left) */
+}
+
+/* ii. Margins */
+.box {
+  margin: 30px; /* Applies 30px margin on all sides (top, right, bottom, left) */
+}
+
+/* iii. Width & Max-width */
+.box {
+  width: 300px; /* Sets the width of the box to 300px */
+  max-width: 600px; /* Sets the maximum width of the box to 600px */
+}
+
+/* iv. Border using shorthand property */
+.box {
+  border: 2px solid #333; /* Applies a 2px solid border with color #333 to the box */
+}
+
+/* v. Font using shorthand property */
+.box {
+  font: italic bold 16px/1.5 Arial, sans-serif;
+  /* Applies the following font styles:
+  - Italic font style
+  - Bold font weight
+  - Font size of 16 pixels
+  - Line height of 1.5 (150% of the font size)
+  - Font family Arial, followed by a fallback of sans-serif */
+}
+
+header, nav, footer {
+  padding: 20px;
+  margin: 30px;
+  border: 2px solid #333;
+  /* Add any other common styles you want for these elements */
+}
+
+header {
+  background-color: #f0f0f0; /* Set the background color of the header */
+  border: 2px solid #333;
+  padding: 10px; /* Add some padding to create space between content and border */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Vertically center the content in the header */
+  justify-content: space-between;
+  margin: 30px;
+  flex-grow: 1; /* Make the header element stretch to the full width of the screen */
+  box-sizing: border-box; /* Include border width in the header's total width */
+}
+
+.logo {
+  margin-right: 10px; /* Add some space between the logo and the text */
+  margin-top: -20px; /* Move the image up slightly */
+}
+
+.logo img {
+  max-width: 50px; /* Adjust the size of the logo image */
+  border: none; /* Remove the border */
+  padding: 0; /* Remove the padding */
+}
+
+.title {
+  flex: 1; /* The title div will grow to fill the remaining space */
+  margin-bottom: -20px; /* Move the text down slightly */
+}
+
+/* Create a flex container to arrange the elements */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Navigation */
+nav {
+  background-color: #f0f0f0;
+  border: 1px solid #333;
+  display: flex;
+  flex-direction: row-reverse; /* Align items in reverse order (right to left) */
+  justify-content: flex-start;
+  margin: 30px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-left: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  display: inline-block;
+  border: 1px solid #333; /* Add border to the buttons */
+  background-color: #f0f0f0; /* Add background color to the buttons */
+  padding: 8px 16px; /* Adjust padding to create spacing within the buttons */
+  border-radius: 5px; /* Optional: Add rounded corners for a button-like appearance */
+  transition: background-color 0.3s, color 0.3s; /* Add transition for smooth hover effect */
+  font-size: 18px;
+}
+
+nav a:hover {
+  background-color: #333; /* Change background color on hover */
+  color: #fff; /* Change text color on hover */
+}
+
+aside {
+  width: 33.33%;
+  float: right;
+  padding: 20px;
+  margin-left: 500px;
+  font: italic bold 16px/1.5 Verdana, sans-serif;
+  /* Add any other styles specific to the aside element */
+}
+
+  aside ul {
+  list-style: none; /* Removes bullet points */
+  line-height: 1.5; /* Increases line spacing between list items */
+}
+
+.aside-container {
+  text-align: center;
+}
+
+main {
+  width: 66.66%;
+  float: left;
+  padding: 20px;
+  height: 100vh;
+  margin: 0;
+  font: italic bold 16px/1.5 Verdana, sans-serif;
+}
+
+.header-container {
+  text-align: center;
+}
+
+/* Clear the float to prevent other elements from floating around them */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Add styles for the image in the figure */
+img {
+  width: 100%; /* Set the image to take up the full width of the figure */
+  display: block; /* Remove any extra spacing around the image */
+  margin: 10px 0; /* Add margin around the image */
+  border: 1px solid #333; /* Add border to the image */
+  padding: 10px; /* Add padding to the image */
+}
+
+/* Add styles for the video in the figure */
+iframe {
+  width: 100%; /* Set the video to take up the full width of the figure */
+  height: 360px; /* Set the height of the video */
+  display: block; /* Remove any extra spacing around the video */
+  margin: 10px 0; /* Add margin around the video */
+  border: 1px solid #333; /* Add border to the video */
+  padding: 10px; /* Add padding to the video */
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+footer p {
+  font-size: 14px;
+  margin: 0;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+}
+
+
+
+.box {
+  padding: 20px; /* Applies 20px padding on all sides (top, right, bottom, left) */
+}
+
+/* ii. Margins */
+.box {
+  margin: 30px; /* Applies 30px margin on all sides (top, right, bottom, left) */
+}
+
+/* iii. Width & Max-width */
+.box {
+  width: 300px; /* Sets the width of the box to 300px */
+  max-width: 600px; /* Sets the maximum width of the box to 600px */
+}
+
+/* iv. Border using shorthand property */
+.box {
+  border: 2px solid #333; /* Applies a 2px solid border with color #333 to the box */
+}
+
+/* v. Font using shorthand property */
+.box {
+  font: italic bold 16px/1.5 Arial, sans-serif;
+  /* Applies the following font styles:
+  - Italic font style
+  - Bold font weight
+  - Font size of 16 pixels
+  - Line height of 1.5 (150% of the font size)
+  - Font family Arial, followed by a fallback of sans-serif */
+}
+
+header, nav, footer {
+  padding: 20px;
+  margin: 30px;
+  border: 2px solid #333;
+  /* Add any other common styles you want for these elements */
+}
+
+header {
+  background-color: #f0f0f0; /* Set the background color of the header */
+  border: 2px solid #333;
+  padding: 10px; /* Add some padding to create space between content and border */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Vertically center the content in the header */
+  justify-content: space-between;
+  margin: 30px;
+  flex-grow: 1; /* Make the header element stretch to the full width of the screen */
+  box-sizing: border-box; /* Include border width in the header's total width */
+}
+
+.logo {
+  margin-right: 10px; /* Add some space between the logo and the text */
+  margin-top: -20px; /* Move the image up slightly */
+}
+
+.logo img {
+  max-width: 50px; /* Adjust the size of the logo image */
+  border: none; /* Remove the border */
+  padding: 0; /* Remove the padding */
+}
+
+.title {
+  flex: 1; /* The title div will grow to fill the remaining space */
+  margin-bottom: -20px; /* Move the text down slightly */
+}
+
+/* Create a flex container to arrange the elements */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Navigation */
+nav {
+  background-color: #f0f0f0;
+  border: 1px solid #333;
+  display: flex;
+  flex-direction: row-reverse; /* Align items in reverse order (right to left) */
+  justify-content: flex-start;
+  margin: 30px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-left: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  display: inline-block;
+  border: 1px solid #333; /* Add border to the buttons */
+  background-color: #f0f0f0; /* Add background color to the buttons */
+  padding: 8px 16px; /* Adjust padding to create spacing within the buttons */
+  border-radius: 5px; /* Optional: Add rounded corners for a button-like appearance */
+  transition: background-color 0.3s, color 0.3s; /* Add transition for smooth hover effect */
+  font-size: 18px;
+}
+
+nav a:hover {
+  background-color: #333; /* Change background color on hover */
+  color: #fff; /* Change text color on hover */
+}
+
+aside {
+  width: 33.33%;
+  float: right;
+  padding: 20px;
+  margin-left: 500px;
+  font: italic bold 16px/1.5 Verdana, sans-serif;
+  /* Add any other styles specific to the aside element */
+}
+
+  aside ul {
+  list-style: none; /* Removes bullet points */
+  line-height: 1.5; /* Increases line spacing between list items */
+}
+
+.aside-container {
+  text-align: center;
+}
+
+main {
+  width: 66.66%;
+  float: left;
+  padding: 20px;
+  height: 100vh;
+  margin: 0;
+  font: italic bold 16px/1.5 Verdana, sans-serif;
+}
+
+.header-container {
+  text-align: center;
+}
+
+/* Clear the float to prevent other elements from floating around them */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Add styles for the image in the figure */
+img {
+  width: 100%; /* Set the image to take up the full width of the figure */
+  display: block; /* Remove any extra spacing around the image */
+  margin: 10px 0; /* Add margin around the image */
+  border: 1px solid #333; /* Add border to the image */
+  padding: 10px; /* Add padding to the image */
+}
+
+/* Add styles for the video in the figure */
+iframe {
+  width: 100%; /* Set the video to take up the full width of the figure */
+  height: 360px; /* Set the height of the video */
+  display: block; /* Remove any extra spacing around the video */
+  margin: 10px 0; /* Add margin around the video */
+  border: 1px solid #333; /* Add border to the video */
+  padding: 10px; /* Add padding to the video */
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+footer p {
+  font-size: 14px;
+  margin: 0;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+}
+
+
+
+.box {
+  padding: 20px; /* Applies 20px padding on all sides (top, right, bottom, left) */
+}
+
+/* ii. Margins */
+.box {
+  margin: 30px; /* Applies 30px margin on all sides (top, right, bottom, left) */
+}
+
+/* iii. Width & Max-width */
+.box {
+  width: 300px; /* Sets the width of the box to 300px */
+  max-width: 600px; /* Sets the maximum width of the box to 600px */
+}
+
+/* iv. Border using shorthand property */
+.box {
+  border: 2px solid #333; /* Applies a 2px solid border with color #333 to the box */
+}
+
+/* v. Font using shorthand property */
+.box {
+  font: italic bold 16px/1.5 Arial, sans-serif;
+  /* Applies the following font styles:
+  - Italic font style
+  - Bold font weight
+  - Font size of 16 pixels
+  - Line height of 1.5 (150% of the font size)
+  - Font family Arial, followed by a fallback of sans-serif */
+}
+
+header, nav, footer {
+  padding: 20px;
+  margin: 30px;
+  border: 2px solid #333;
+  /* Add any other common styles you want for these elements */
+}
+
+header {
+  background-color: #f0f0f0; /* Set the background color of the header */
+  border: 2px solid #333;
+  padding: 10px; /* Add some padding to create space between content and border */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Vertically center the content in the header */
+  justify-content: space-between;
+  margin: 30px;
+  flex-grow: 1; /* Make the header element stretch to the full width of the screen */
+  box-sizing: border-box; /* Include border width in the header's total width */
+}
+
+.logo {
+  margin-right: 10px; /* Add some space between the logo and the text */
+  margin-top: -20px; /* Move the image up slightly */
+}
+
+.logo img {
+  max-width: 50px; /* Adjust the size of the logo image */
+  border: none; /* Remove the border */
+  padding: 0; /* Remove the padding */
+}
+
+.title {
+  flex: 1; /* The title div will grow to fill the remaining space */
+  margin-bottom: -20px; /* Move the text down slightly */
+}
+
+/* Create a flex container to arrange the elements */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Navigation */
+nav {
+  background-color: #f0f0f0;
+  border: 1px solid #333;
+  display: flex;
+  flex-direction: row-reverse; /* Align items in reverse order (right to left) */
+  justify-content: flex-start;
+  margin: 30px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-left: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  display: inline-block;
+  border: 1px solid #333; /* Add border to the buttons */
+  background-color: #f0f0f0; /* Add background color to the buttons */
+  padding: 8px 16px; /* Adjust padding to create spacing within the buttons */
+  border-radius: 5px; /* Optional: Add rounded corners for a button-like appearance */
+  transition: background-color 0.3s, color 0.3s; /* Add transition for smooth hover effect */
+  font-size: 18px;
+}
+
+nav a:hover {
+  background-color: #333; /* Change background color on hover */
+  color: #fff; /* Change text color on hover */
+}
+
+aside {
+  width: 33.33%;
+  float: right;
+  padding: 20px;
+  margin-left: 500px;
+  font: italic bold 16px/1.5 Verdana, sans-serif;
+  /* Add any other styles specific to the aside element */
+}
+
+  aside ul {
+  list-style: none; /* Removes bullet points */
+  line-height: 1.5; /* Increases line spacing between list items */
+}
+
+.aside-container {
+  text-align: center;
+}
+
+main {
+  width: 66.66%;
+  float: left;
+  padding: 20px;
+  height: 100vh;
+  margin: 0;
+  font: italic bold 16px/1.5 Verdana, sans-serif;
+}
+
+.header-container {
+  text-align: center;
+}
+
+/* Clear the float to prevent other elements from floating around them */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Add styles for the image in the figure */
+img {
+  width: 100%; /* Set the image to take up the full width of the figure */
+  display: block; /* Remove any extra spacing around the image */
+  margin: 10px 0; /* Add margin around the image */
+  border: 1px solid #333; /* Add border to the image */
+  padding: 10px; /* Add padding to the image */
+}
+
+/* Add styles for the video in the figure */
+iframe {
+  width: 100%; /* Set the video to take up the full width of the figure */
+  height: 360px; /* Set the height of the video */
+  display: block; /* Remove any extra spacing around the video */
+  margin: 10px 0; /* Add margin around the video */
+  border: 1px solid #333; /* Add border to the video */
+  padding: 10px; /* Add padding to the video */
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+footer p {
+  font-size: 14px;
+  margin: 0;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+}
+
+
+
+/* Form stuff */
+form {
+  /* Your existing styles here */
+  width: 96%;
+  background-color: lightblue;
+  border: 2px solid #888888;
+  padding: 20px;
+  margin-bottom: 20px; /* Add a 20px gap between each form */
+  position: relative; /* Set the form container as a positioning context */
+}
+
+/* Apply the margin only to forms that are direct siblings of each other */
+form + form {
+  margin-top: 20px; /* Add a 20px gap between each form */
+}
+
+form label,
+form input,
+form select {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form select {
+  height: 30px;
+}
+
+/* Move the legend to the middle of the border */
+form legend {
+  /* Your existing styles here */
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5 10px;
+  font-size: 14px;
+  z-index: 1;
+  /* Add a gradient background with two colors */
+  background: linear-gradient(to bottom, white 60%, lightblue 40%);
+}
+
+/* Create a border only around the form fields */
+form::before {
+  /* Your existing styles here */
+  content: '';
+  position: absolute;
+  border: 2px solid #888888;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  /* Add a gradient background with two colors */
+  background: linear-gradient(to bottom, lightblue 40%, white 60%);
+}
+
+/* Move the buttons to the left side in the second form */
+form + form label,
+form + form input,
+form + form select,
+form + form button {
+  display: inline-block; /* Change the display to inline-block */
+  width: auto;
+  margin: 0;
+  vertical-align: middle; /* Align the labels and buttons vertically */
+}
+
+/* Adjust the spacing between the buttons in the second form */
+form + form input[type="submit"],
+form + form input[type="reset"] {
+  margin-right: 10px;
+}
+
+/* Move the "Comments:" label to be on top of the text box in the third form */
+form + form + form label[for="comments"] {
+  display: block;
+  position: absolute;
+  top: 20px; /* Adjust the top position as needed */
+  left: 5;
+}
+
+form + form + form textarea {
+  margin-top: 20px; /* Create space between the label and the textarea */
+/* Adjust the value as needed to make the textarea bigger */
+  width: 1030px;
+  height: 100px;
+}
+
+/* Move the "I am not a robot" button to the right of the label in the fourth form */
+form + form + form + form {
+  position: relative;
+}
+
+form + form + form + form label[for="not-robot"] {
+  display: block;
+  position: absolute;
+  left: 1; /* Move the label to the left side of the container */
+  margin-right: 10px; /* Add some spacing between the label and button */
+  white-space: nowrap; /* Prevent label text from wrapping */
+  top: 35%; /* Move the label down by 50% of its height to vertically center it */
+  transform: translateY(-50%); /* Adjust the label position to vertically center it */
+}
+
+form + form + form + form input[type="checkbox"] {
+  position: absolute;
+  left: calc(15% + 30px); /* Move the button to the right of the label with 10px spacing */
+  top: 35%; /* Move the button down by 50% of its height to vertically center it */
+  transform: translateY(-50%); /* Adjust the button position to vertically center it */
+}
+
+/* Increase the size of the fourth form to fit the buttons */
+form + form + form + form {
+  padding: 20px; /* Increase the padding to create space for the buttons */
+  text-align: center; /* Center the buttons within the form */
+}
+
+/* Move the buttons down and position them side by side */
+form + form + form + form input[type="submit"],
+form + form + form + form input[type="reset"] {
+  display: inline-block; /* Change the display to inline-block to position buttons side by side */
+  width: 45%; /* Set the width to 45% to take up half of the form box each */
+  margin-top: 30px; /* Add margin to move the buttons down */
+  vertical-align: middle; /* Align the buttons vertically */
+}
+
+/* Adjust the position of the submit button */
+form + form + form + form input[type="submit"] {
+  margin-left: -80px; /* Add a left margin to align the submit button with the "I" in "I am not a robot" */
+}

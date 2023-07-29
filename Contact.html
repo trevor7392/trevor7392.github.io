@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome to My Website</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="../images/teslalogo.jpg" alt="Your Logo">
+    </div>
+    <!-- Content for the header goes here, e.g., logo, navigation, etc. -->
+    <div class="title">
+      <h1>Welcome to My Website</h1>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="Index.html">Home</a></li>
+      <li><a href="Contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <div class="clearfix">
+    <aside>
+      <!-- Sidebar content goes here -->
+      <div class="aside-container">
+        <h2>List</h2>
+      </div>
+      <ul>
+        <li>Post 1</li>
+        <li>Post 2</li>
+        <li>Post 3</li>
+      </ul>
+    </aside>
+
+    <main>
+      <!-- Main content of the webpage goes here -->
+      <div class="header-container">
+        <h2>Contact Us</h2>
+      </div>
+      <form autocomplete="on">
+        <fieldset>
+          <legend>Personal Information</legend>
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required autofocus>
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+          </div>
+          <div>
+            <label for="employment-status">Employment Status:</label>
+            <select id="employment-status" name="employment-status" required>
+              <option value="" disabled selected>Select Option</option>
+              <option value="student">Student</option>
+              <option value="employed-full-time">Employed Full-time</option>
+              <option value="employed-part-time">Employed Part-time</option>
+              <option value="retired">Retired</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+        </fieldset>
+      </form>
+
+      <form autocomplete="on">
+        <fieldset>
+          <legend>How did you hear about our site?</legend>
+          <div>
+            <input type="radio" id="social-media" name="how-heard" value="social-media" required>
+            <label for="social-media">Social Media</label>
+          </div>
+          <div>
+            <input type="radio" id="friend" name="how-heard" value="friend" required>
+            <label for="friend">Friend</label>
+          </div>
+          <div>
+            <input type="radio" id="search-engine" name="how-heard" value="search-engine" required>
+            <label for="search-engine">Search Engine</label>
+          </div>
+          <div>
+            <input type="radio" id="other" name="how-heard" value="other" required>
+            <label for="other">Other</label>
+          </div>
+        </fieldset>
+      </form>
+
+      <form autocomplete="on">
+        <fieldset>
+          <legend>Tell Us what you think!</legend>
+          <div>
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="4" cols="50" required placeholder="Enter your comments here..."></textarea>
+          </div>
+        </fieldset>
+      </form>
+
+      <form autocomplete="on">
+        <fieldset>
+          <legend>Submit</legend>
+          <div>
+            <input type="checkbox" id="not-robot" name="not-robot" required>
+            <label for="not-robot">I am not a robot.</label>
+          </div>
+          <div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+          </div>
+        </fieldset>
+      </form>
+    </main>
+  </div>
+
+  <footer class="box">
+    <!-- Footer content goes here -->
+    <p>&copy; 2023 Trevor Dasilva 8753164</p>
+  </footer>
+</body>
+</html>
